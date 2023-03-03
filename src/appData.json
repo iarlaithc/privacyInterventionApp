@@ -1,0 +1,23 @@
+{
+  "snapchat": {
+    "title": "Snapchat",
+    "info1": "Snapchat is a multimedia messaging app",
+    "info2": "It is known for its disappearing messages and filters",
+    "info3": "Snapchat has over 280 million daily active users",
+    "info4": "The company was founded in 2011"
+  },
+  "tiktok": {
+    "title": "TikTok",
+    "info1": "TikTok is a social media app for short-form videos",
+    "info2": "It has become very popular among young people",
+    "info3": "TikTok has over 1 billion active users worldwide",
+    "info4": "The app was launched in 2016"
+  },
+  "bereal": {
+    "title": "BeReal",
+    "info1": "BeReal is a social media app for honest and authentic sharing",
+    "info2": "It allows users to share real moments without filters or editing",
+    "info3": "BeReal is focused on building genuine connections",
+    "info4": "The app was founded in 2020"
+  }
+}
