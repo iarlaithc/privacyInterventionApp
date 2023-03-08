@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Styles.css"
+import { MuiAccordion } from "./components/MuiAccordian.tsx"
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
           <p></p>
         </div>
       </div>
+      <MuiAccordion />
     </div>
   )
 }

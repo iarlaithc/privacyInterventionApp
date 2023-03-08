@@ -2,6 +2,7 @@ import "./Styles.css"
 import { Link } from "react-router-dom"
 import { Routes, Route } from "react-router-dom"
 
+
 //logos
 import snap_logo from "./media/snapchat.png"
 import instagram_logo from "./media/instagram.png"
@@ -87,6 +88,7 @@ function Home() {
               <p>Bereal</p>
             </Link>
           </div>
+          
         </div>
       </div>
     </div>
