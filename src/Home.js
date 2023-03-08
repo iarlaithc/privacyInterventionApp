@@ -1,6 +1,5 @@
 import "./Styles.css"
 import { Link } from "react-router-dom"
-import { Routes, Route } from "react-router-dom"
 
 //logos
 import snap_logo from "./media/snapchat.png"
@@ -10,14 +9,12 @@ import twitter_logo from "./media/twitter.png"
 import youtube_logo from "./media/youtube.png"
 import bereal_logo from "./media/bereal.png"
 
+//import appdata for apps
+import appData from "./appData.json"
 
-const items = [
-  { id: 1, title: "Item 1", description: "This is the first item" },
-  { id: 2, title: "Item 2", description: "This is the second item" },
-  { id: 3, title: "Item 3", description: "This is the third item" },
-]
+function Home(props) {
+  const appDataObj = appData
 
-function Home() {
   return (
     <div className="body">
       <div className="header-nav-bar">
@@ -25,19 +22,19 @@ function Home() {
       </div>
 
       <div className="links-bar">
-        <div classNameName="links-grid-container">
+        <div className="links-grid-container">
           <div className="link-grid-item">
-            <Link className="inline-link" to="/About">
+            <Link className="inline-link" to="/info" state={appDataObj.algorithms}>
               Algorithms
             </Link>
           </div>
           <div className="link-grid-item">
-            <Link className="inline-link" to="/About">
+            <Link className="inline-link" to="/info" state={appDataObj.misleadingUI}> 
               Misleading UI
             </Link>
           </div>
           <div className="link-grid-item">
-            <Link className="inline-link" to="/About">
+            <Link className="inline-link" to="/info" state={appDataObj.privacy}>
               Privacy
             </Link>
           </div>
@@ -47,42 +44,42 @@ function Home() {
       <div className="grid-body">
         <div className="icon-grid-container">
           <div className="grid-item">
-            <Link to="/About">
+            <Link to="/About" state={appDataObj.snapchat}>
               <img src={snap_logo} alt="snapchat icon" />
               <p>Snapchat</p>
             </Link>
           </div>
 
           <div className="grid-item">
-            <Link to="/About">
+            <Link to="/About" state={appDataObj.instagram}>
               <img src={instagram_logo} alt="instagram icon" />
-              <p>TikTok</p>
+              <p>Instagram</p>
             </Link>
           </div>
 
           <div className="grid-item">
-            <Link to="/About">
+            <Link to="/About" state={appDataObj.tiktok}>
               <img src={tiktok_logo} alt="TikTok icon" />
               <p>TikTok</p>
             </Link>
           </div>
 
           <div className="grid-item">
-            <Link to="/About">
+            <Link to="/About" state={appDataObj.twitter}>
               <img src={twitter_logo} alt="Twitter icon" />
               <p>Twitter</p>
             </Link>
           </div>
 
           <div className="grid-item">
-            <Link to="/About">
+            <Link to="/About" state={appDataObj.youtube}>
               <img src={youtube_logo} alt="Youtube icon" />
               <p>Youtube</p>
             </Link>
           </div>
 
           <div className="grid-item">
-            <Link to="/About">
+            <Link to="/About" state={appDataObj.bereal}>
               <img src={bereal_logo} alt="Bereal icon" />
               <p>Bereal</p>
             </Link>

@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom"
 import "./Styles.css"
+import { Link } from "react-router-dom"
 
 //data passthrough
 import { useLocation } from "react-router-dom"
 
-function About(props) {
-  //props is KW for args passed through
+function InfoPage(props) {
   const location = useLocation()
   const data = location.state
 
@@ -17,19 +16,9 @@ function About(props) {
         </div>
       </div>
       <div className="appTitle">
-        <p>{data["title"]}</p>
-      </div>
-      <div className="appInfo1">
-        <p>{data["info1"]}</p>
-      </div>
-      <div className="appInfo1">
-        <p>{data["info2"]}</p>
-      </div>
-      <div className="appInfo1">
-        <p>{data["info3"]}</p>
+        <p>{data.title}</p>
       </div>
     </div>
   )
 }
-
-export default About
+export default InfoPage
