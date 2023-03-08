@@ -68,3 +68,20 @@ a {
   width: 80px;
   height: 80px;
 }
+
+.testclass {
+  color: #13293d;
+}
+
+.appTitle {
+  text-align: center;
+  font-size: 30px;
+  color: #13293d;
+}
+
+.appInfo1 {
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: #13293d;
+}

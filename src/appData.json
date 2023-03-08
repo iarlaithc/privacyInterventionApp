@@ -1,4 +1,10 @@
 {
+  "testLinkName": {
+    "title": "name",
+    "info1": "info bit 1",
+    "etc": "True"
+  },
+
   "snapchat": {
     "title": "Snapchat",
     "info1": "Snapchat is a multimedia messaging app",
@@ -19,5 +25,35 @@
     "info2": "It allows users to share real moments without filters or editing",
     "info3": "BeReal is focused on building genuine connections",
     "info4": "The app was founded in 2020"
+  },
+  "instagram": {
+    "title": "Instagram",
+    "info1": "BeReal is a social media app for honest and authentic sharing",
+    "info2": "It allows users to share real moments without filters or editing",
+    "info3": "BeReal is focused on building genuine connections",
+    "info4": "The app was founded in 2020"
+  },
+  "youtube": {
+    "title": "Youtube",
+    "info1": "BeReal is a social media app for honest and authentic sharing",
+    "info2": "It allows users to share real moments without filters or editing",
+    "info3": "BeReal is focused on building genuine connections",
+    "info4": "The app was founded in 2020"
+  },
+  "twitter": {
+    "title": "Twitter",
+    "info1": "BeReal is a social media app for honest and authentic sharing",
+    "info2": "It allows users to share real moments without filters or editing",
+    "info3": "BeReal is focused on building genuine connections",
+    "info4": "The app was founded in 2020"
+  },
+  "algorithms": {
+    "title": "Algorithms"
+  },
+  "misleadingUI": {
+    "title": "Misleading UI"
+  },
+  "privacy": {
+    "title": "Privacy"
   }
 }
