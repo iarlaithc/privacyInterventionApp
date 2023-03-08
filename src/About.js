@@ -28,6 +28,9 @@ function About(props) {
       <div className="appInfo1">
         <p>{data["info3"]}</p>
       </div>
+      <div className="appInfo1">
+        <p>{data["info4"]}</p>
+      </div>
     </div>
   )
 }
