@@ -81,29 +81,3 @@ a {
   font-size: 20px;
   color: #13293d;
 }
-
-.accordion {
-  max-width: 600px;
-}
-
-.accordion-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #69b1db;
-  color: #13293d;
-}
-
-.accordion-title:hover {
-  background-color: #69b1db;
-}
-
-.accordion-title,
-.accordion-content {
-  padding: 1rem;
-}
-
-.accordion-content {
-  background-color: #e8f1f2;
-  color: #13293d;
-}

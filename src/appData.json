@@ -49,14 +49,14 @@
   },
   "algorithms": {
     "title": "Algorithms",
-    "content": ["BeReal is focused on building genuine connections", "two"]
+    "content": ["test", "two","three","four"]
   },
   "misleadingUI": {
     "title": "Misleading UI",
-    "content": ["one", "two"]
+    "content": ["one", "two", "three", "four"]
   },
   "privacy": {
     "title": "Privacy",
-    "content": ["one", "two"]
+    "content": ["one", "two", "three", "four"]
   }
 }
