@@ -48,12 +48,15 @@
     "info4": "The app was founded in 2020"
   },
   "algorithms": {
-    "title": "Algorithms"
+    "title": "Algorithms",
+    "content": ["BeReal is focused on building genuine connections", "two"]
   },
   "misleadingUI": {
-    "title": "Misleading UI"
+    "title": "Misleading UI",
+    "content": ["one", "two"]
   },
   "privacy": {
-    "title": "Privacy"
+    "title": "Privacy",
+    "content": ["one", "two"]
   }
 }
