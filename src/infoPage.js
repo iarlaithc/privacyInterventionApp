@@ -1,5 +1,6 @@
 import "./Styles.css"
 import { Link } from "react-router-dom"
+import GenAccordion from "./accordionElement"
 
 //data passthrough
 import { useLocation } from "react-router-dom"
@@ -14,9 +15,19 @@ function InfoPage(props) {
         <div className="back-btn">
           <Link to="../">Back</Link>
         </div>
+        <div className="appTitle">
+          <p>{data.title}</p>
+        </div>
       </div>
-      <div className="appTitle">
-        <p>{data.title}</p>
+      <div className="accordion">
+        <GenAccordion
+          title={data.content[0]}
+          text={data.content[1]}
+        ></GenAccordion>
+        <GenAccordion
+          title={data.content[2]}
+          text={data.content[3]}
+        ></GenAccordion>
       </div>
     </div>
   )
