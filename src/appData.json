@@ -53,10 +53,6 @@
     "info4": "The app was founded in 2020",
     "info5": "Here is their terms and conditions"
   },
-  "algorithms": {
-    "title": "Algorithms",
-    "content": ["test", "two","three","four"]
-  },
   "misleadingUI": {
     "title": "Misleading UI",
     "content": ["one", "two", "three", "four"]
@@ -64,5 +60,9 @@
   "privacy": {
     "title": "Privacy",
     "content": ["one", "two", "three", "four"]
+  },
+  "sources":{
+    "title": "Our sources",
+    "content": ["source 1", "source 2", "source 3"]
   }
 }

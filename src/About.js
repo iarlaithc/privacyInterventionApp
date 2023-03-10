@@ -13,7 +13,7 @@ function About(props) {
   return (
 
     <div className="body">
-      <div className="header-nav-bar">
+      <div className="app-header-nav-bar">
         <div className="back-btn">
           <Link to="../">Back</Link>
         </div>
@@ -22,7 +22,7 @@ function About(props) {
         </div>
       </div>
 
-      <div className="accordion">
+      <div className="accordionBox">
         <GenAccordion
           title= "The information they have on you"text={data["info1"]}
         ></GenAccordion>
