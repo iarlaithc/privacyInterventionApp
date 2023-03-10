@@ -10,42 +10,48 @@
     "info1": "Snapchat is a multimedia messaging app",
     "info2": "It is known for its disappearing messages and filters",
     "info3": "Snapchat has over 280 million daily active users",
-    "info4": "The company was founded in 2011"
+    "info4": "The company was founded in 2011",
+    "info5": "Here is their terms and conditions"
   },
   "tiktok": {
     "title": "TikTok",
     "info1": "The Sign Up Page. Upon making your TikTok account you are prompted to confirm whether you are over 18 with “yes” or “no” buttons. However, Tiktok has merged this question with asking for your consent to allow personalised ad content.",
     "info2": "A combination of autoplaying videos in an endless scroll format aims to colonise your attention as much as possible. Unlike videos on Facebook or Twitter where you can scroll up fast to skip past a few videos, on TikTok you are locked in to one video at a time. TikTok is in full control of what you see.",
     "info3": "TikTok stifles external links and lengthy descriptions on videos in order to keep you in the app for as long as possible. Anything that could possibly take you out of the app is never placed front and centre on your FYP feed.",
-    "info4": "As well as merging multiple calls to action under one “yes” or “no” option, TikTok designs their options asymmetrical to add an extra push to users to accept their requests for “experience improvement”. Notice the “OK” both capitalised and in bold compared to the “Don’t allow” which is not capitalised and not in bold. Using “OK” as opposed to “Allow” deceives users into forgetting that TikTok are asking for permissions which the user has a choice in allowing."
+    "info4": "As well as merging multiple calls to action under one “yes” or “no” option, TikTok designs their options asymmetrical to add an extra push to users to accept their requests for “experience improvement”. Notice the “OK” both capitalised and in bold compared to the “Don’t allow” which is not capitalised and not in bold. Using “OK” as opposed to “Allow” deceives users into forgetting that TikTok are asking for permissions which the user has a choice in allowing.",
+    "info5": "Here is their terms and conditions"
   },
   "bereal": {
     "title": "BeReal",
     "info1": "BeReal is a social media app for honest and authentic sharing",
     "info2": "It allows users to share real moments without filters or editing",
     "info3": "BeReal is focused on building genuine connections",
-    "info4": "The app was founded in 2020"
+    "info4": "The app was founded in 2020",
+    "info5": "Here is their terms and conditions"
   },
   "instagram": {
     "title": "Instagram",
     "info1": "BeReal is a social media app for honest and authentic sharing",
     "info2": "It allows users to share real moments without filters or editing",
     "info3": "BeReal is focused on building genuine connections",
-    "info4": "The app was founded in 2020"
+    "info4": "The app was founded in 2020",
+    "info5": "Here is their terms and conditions"
   },
   "youtube": {
     "title": "Youtube",
     "info1": "BeReal is a social media app for honest and authentic sharing",
     "info2": "It allows users to share real moments without filters or editing",
     "info3": "BeReal is focused on building genuine connections",
-    "info4": "The app was founded in 2020"
+    "info4": "The app was founded in 2020",
+    "info5": "Here is their terms and conditions"
   },
   "twitter": {
     "title": "Twitter",
     "info1": "BeReal is a social media app for honest and authentic sharing",
     "info2": "It allows users to share real moments without filters or editing",
     "info3": "BeReal is focused on building genuine connections",
-    "info4": "The app was founded in 2020"
+    "info4": "The app was founded in 2020",
+    "info5": "Here is their terms and conditions"
   },
   "algorithms": {
     "title": "Algorithms",
