@@ -26,7 +26,7 @@ a {
   text-align: center;
 }
 
-.app-header-nav-bar{
+.app-header-nav-bar {
   align-items: center;
   background-color: #2b2b2b;
   border-bottom: 2px solid #3d3c3c;
@@ -53,7 +53,7 @@ a {
   border-bottom: 2px solid #3d3c3c;
 }
 
-.links-grid-container{
+.links-grid-container {
   display: inline-block;
 }
 .link-grid-item {
@@ -64,15 +64,14 @@ a {
   margin: 10px;
 }
 
-.inline-link{
+.inline-link {
   padding: 10px;
   margin: 10px;
   gap: 10%;
   align-items: center;
   text-align: center;
   font-size: 25px;
-  background-color: #70A37F;
-  
+  background-color: #70a37f;
 }
 
 .grid_body {
@@ -90,7 +89,8 @@ a {
   gap: 16px;
 }
 
-.grid-item { /* icons */
+.grid-item {
+  /* icons */
   display: flex;
   justify-content: center;
   border-radius: 8px;
@@ -106,7 +106,7 @@ a {
   text-align: center;
   font-size: 30px;
   color: #ffffff;
-  margin-left: 20%;
+  margin-left: 50%;
   margin-right: 50%;
 }
 

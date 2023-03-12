@@ -11,7 +11,6 @@ function About(props) {
   const data = location.state
 
   return (
-
     <div className="body">
       <div className="app-header-nav-bar">
         <div className="back-btn">
@@ -23,26 +22,11 @@ function About(props) {
       </div>
 
       <div className="accordionBox">
-        <GenAccordion
-          title= "The information they have on you"text={data["info1"]}
-        ></GenAccordion>
-
-        <GenAccordion
-          title= "Privacy protection tutorial"text={data["info2"]}
-        ></GenAccordion>
-
-        <GenAccordion
-          title= "Misleading UI they use"text={data["info3"]}
-        ></GenAccordion>
-
-        <GenAccordion
-          title= "their security test results"text={data["info4"]}
-        ></GenAccordion>
-
-        <GenAccordion
-          title= "Their terms and conditions"text={data["info5"]}
-        ></GenAccordion>
-
+        <GenAccordion textArray={data.infoAccordion}></GenAccordion>
+        <GenAccordion textArray={data.tutorialAccordion}></GenAccordion>
+        <GenAccordion textArray={data.misUiAccordion}></GenAccordion>
+        <GenAccordion textArray={data.tecSecAccordion}></GenAccordion>
+        <GenAccordion textArray={data.tncAccordion}></GenAccordion>
       </div>
     </div>
   )
