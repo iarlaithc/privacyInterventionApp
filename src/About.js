@@ -12,7 +12,7 @@ function About(props) {
 
   return (
     <div className="body">
-      <div className="app-header-nav-bar">
+      <div className="header-nav-bar">
         <div className="back-btn">
           <Link to="../">Back</Link>
         </div>
@@ -20,7 +20,6 @@ function About(props) {
           <p>{data.title}</p>
         </div>
       </div>
-
       <div className="accordionBox">
         <GenAccordion textArray={data.infoAccordion}></GenAccordion>
         <GenAccordion textArray={data.tutorialAccordion}></GenAccordion>

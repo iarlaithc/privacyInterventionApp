@@ -2,7 +2,7 @@
   "snapchat": {
     "title": "Snapchat",
     "infoAccordion": [
-      "Misleading UI",
+      "What Snapchat knows about you",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -49,6 +49,7 @@
       "fact 12",
       "fact 13"
     ],
+    "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
       "fact 1",
@@ -85,7 +86,7 @@
   "tiktok": {
     "title": "TikTok",
     "infoAccordion": [
-      "Misleading UI",
+      "What TikTok knows about you",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -118,20 +119,12 @@
     ],
     "misUiAccordion": [
       "Misleading UI features",
-      "fact 1",
-      "fact neek",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "The Sign Up Page. Upon making your TikTok account you are prompted to confirm whether you are over 18 with “yes” or “no” buttons. However, Tiktok has merged this question with asking for your consent to allow personalised ad content.",
+      "A combination of autoplaying videos in an endless scroll format aims to colonise your attention as much as possible. Unlike videos on Facebook or Twitter where you can scroll up fast to skip past a few videos, on TikTok you are locked in to one video at a time. TikTok is in full control of what you see.",
+      "TikTok stifles external links and lengthy descriptions on videos in order to keep you in the app for as long as possible. Anything that could possibly take you out of the app is never placed front and centre on your FYP feed",
+      "As well as merging multiple calls to action under one “yes” or “no” option, TikTok designs their options asymmetricaly to add an extra push to users to accept their requests for “experience improvement”. Notice the “OK” both capitalised and in bold compared to the “Don’t allow” which is not capitalised and not in bold. Using “OK” as opposed to “Allow” deceives users into forgetting that TikTok are asking for permissions which the user has a choice in allowing."
     ],
+    "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
       "fact 1",
@@ -140,13 +133,7 @@
       "fact 4",
       "fact 5",
       "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "fact 7"
     ],
     "tncAccordion": [
       "Their Terms and Conditions",
@@ -168,7 +155,7 @@
   "bereal": {
     "title": "BeReal",
     "infoAccordion": [
-      "Misleading UI",
+      "What BeReal knows about you",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -215,6 +202,7 @@
       "fact 12",
       "fact 13"
     ],
+    "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
       "fact 1",
@@ -251,7 +239,7 @@
   "instagram": {
     "title": "Instagram",
     "infoAccordion": [
-      "Misleading UI",
+      "What Instagram knows about you",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -298,6 +286,7 @@
       "fact 12",
       "fact 13"
     ],
+    "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
       "fact 1",
@@ -334,7 +323,7 @@
   "youtube": {
     "title": "Youtube",
     "infoAccordion": [
-      "Misleading UI",
+      "What Youtube knows about you",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -381,6 +370,7 @@
       "fact 12",
       "fact 13"
     ],
+    "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
       "fact 1",
@@ -417,7 +407,7 @@
   "twitter": {
     "title": "Twitter",
     "infoAccordion": [
-      "Misleading UI",
+      "What Twitter knows about you",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -464,6 +454,7 @@
       "fact 12",
       "fact 13"
     ],
+    "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
       "fact 1",
@@ -499,11 +490,32 @@
   },
   "misleadingUI": {
     "title": "Misleading UI",
-    "content": ["one", "two", "three", "four"]
+    "pageContent": [
+      "Infinite Scrolling",
+      "Social media apps often use infinite scrolling to keep users engaged, but this can lead to users spending more time on the app than they intended and feeling overwhelmed.",
+      "Misleading Notification Counts",
+      "Some apps display unread notification counts that include notifications for irrelevant or trivial updates, such as when someone likes one of your posts.",
+      "Hidden Settings and Privacy Controls",
+      "The settings and privacy controls in some social media apps can be difficult to find and use, making it difficult for users to control their data and privacy.",
+      "Manipulative Design Elements",
+      "Some apps use design elements, such as red notification dots, to create a sense of urgency and drive engagement.",
+      "Algorithmic Feeds",
+      "Social media apps use algorithms to curate users' feeds, which can result in users being shown content that reinforces their existing beliefs and biases, rather than exposing them to a diverse range of perspectives.",
+      "Auto-Playing Videos",
+      "Some apps automatically play videos in users' feeds, which can result in users using more data and being exposed to content they didn't intend to watch.",
+      "Addiction-Fueling Features",
+      "Social media apps often include features that are designed to be addictive, such as the infinite scroll or the use of push notifications, leading users to spend more time on the app than they intended.",
+      "False Sense of Popularity",
+      "Some apps use likes, followers, and other metrics to create a false sense of popularity and social validation.",
+      "Confusing Navigation",
+      "Some apps have complex and confusing navigation systems that make it difficult for users to find the content they're looking for.",
+      "Hidden Ads",
+      "Social media apps often use hidden ads that blend in with the user's feed, making it difficult for users to distinguish between advertisements and genuine content."
+    ]
   },
   "privacy": {
     "title": "Privacy",
-    "content": ["one", "two", "three", "four"]
+    "pageContent": ["one", "two", "three", "four"]
   },
   "sources": {
     "title": "Our sources",
