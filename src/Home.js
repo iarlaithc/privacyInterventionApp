@@ -12,22 +12,18 @@ import bereal_logo from "./media/bereal.png"
 //import appdata for apps
 import appData from "./appData.json"
 
+
 function Home(props) {
   const appDataObj = appData
 
   return (
     <div className="body">
       <div className="header-nav-bar">
-        <h1>Home</h1>
+        <h1>*App name*</h1>
       </div>
 
       <div className="links-bar">
         <div className="links-grid-container">
-          <div className="link-grid-item">
-            <Link className="inline-link" to="/info" state={appDataObj.algorithms}>
-              Algorithms
-            </Link>
-          </div>
           <div className="link-grid-item">
             <Link className="inline-link" to="/info" state={appDataObj.misleadingUI}> 
               Misleading UI
@@ -85,6 +81,11 @@ function Home(props) {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="sources">
+        <Link className="inline-link" to="/sources" state={appDataObj.sources}> 
+          Sources
+        </Link>
       </div>
     </div>
   )

@@ -5,21 +5,33 @@
 
 a {
   text-decoration: none;
-  color: #13293d;
+  color: #ffffff;
   font-size: 20px;
 }
 
 .body {
-  background-color: #e8f1f2;
+  background-color: #2b2b2b;
   height: 100vh;
 }
 
 .header-nav-bar {
   align-items: center;
-  background-color: #1b98e0;
-  color: #13293d;
+  background-color: #2b2b2b;
+  border-bottom: 2px solid #3d3c3c;
+  color: #ffffff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  height: 64px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.app-header-nav-bar{
+  align-items: center;
+  background-color: #2b2b2b;
+  border-bottom: 2px solid #3d3c3c;
+  color: #ffffff;
+  display: flex;
   height: 64px;
   padding: 0 16px;
 }
@@ -32,13 +44,35 @@ a {
 .links-bar {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   height: 150px;
-  border-bottom: 5px #13293d;
+  border-bottom: 5px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  font-size: 16px;
+  border-bottom: 2px solid #3d3c3c;
 }
 
+.links-grid-container{
+  display: inline-block;
+}
 .link-grid-item {
-  padding: 5px;
+  padding: 25px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.inline-link{
+  padding: 10px;
+  margin: 10px;
+  gap: 10%;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  background-color: #70A37F;
+  
 }
 
 .grid_body {
@@ -56,23 +90,24 @@ a {
   gap: 16px;
 }
 
-.grid-item {
+.grid-item { /* icons */
   display: flex;
   justify-content: center;
-  background-color: #e8f1f2;
   border-radius: 8px;
   text-align: center;
 }
 
 .grid-item img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 
 .appTitle {
   text-align: center;
   font-size: 30px;
-  color: #13293d;
+  color: #ffffff;
+  margin-left: 20%;
+  margin-right: 50%;
 }
 
 .appInfo1 {
@@ -81,3 +116,18 @@ a {
   font-size: 20px;
   color: #13293d;
 }
+
+.accordion {
+  align-items: center;
+  background-color: #2b2b2b;
+}
+
+.accordionTitle {
+  height: 130px;
+  color: #2b2b2b;
+}
+
+/*
+.Mui-expanded{
+  
+}*/
