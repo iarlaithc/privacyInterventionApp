@@ -13,7 +13,7 @@ function About(props) {
   return (
 
     <div className="body">
-      <div className="app-header-nav-bar">
+      <div className="header-nav-bar">
         <div className="back-btn">
           <Link to="../">Back</Link>
         </div>
@@ -42,7 +42,9 @@ function About(props) {
         <GenAccordion
           title= "Their terms and conditions"text={data["info5"]}
         ></GenAccordion>
-
+      </div>
+      <div className="doneButton">
+      <Link to="../">Done</Link>
       </div>
     </div>
   )

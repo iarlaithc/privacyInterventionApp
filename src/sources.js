@@ -14,20 +14,12 @@ function SourcesPage(props) {
                 <div className="back-btn">
                     <Link to="../">Back</Link>
                 </div>
-                <div className="appTitle">
+                <div className="appTitle-Source">
                     <p>{data.title}</p>
                 </div>
             </div>
             <div className="accordion">
-                <GenAccordion
-                    title={data.content[0]}
-                    text={data.content[1]}
-                ></GenAccordion>
-
-                <GenAccordion
-                    title={data.content[2]}
-                    text={data.content[3]}
-                ></GenAccordion>
+              
             </div>
         </div>
     )

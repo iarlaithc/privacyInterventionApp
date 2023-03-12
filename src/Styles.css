@@ -39,6 +39,10 @@ a {
 .back-btn {
   color: #13293d;
   border: none;
+  position: fixed;
+  top:2%;
+  left: 5%;
+  padding-right: 5%;
 }
 
 .links-bar {
@@ -46,7 +50,6 @@ a {
   align-items: center;
   justify-content: center;
   height: 150px;
-  border-bottom: 5px;
   padding: 20px;
   background-color: #2b2b2b;
   font-size: 16px;
@@ -56,23 +59,36 @@ a {
 .links-grid-container{
   display: inline-block;
 }
+
 .link-grid-item {
   padding: 25px;
   align-items: center;
   text-align: center;
   font-size: 16px;
-  margin: 10px;
 }
 
-.inline-link{
+.misleading-inline-link{
   padding: 10px;
-  margin: 10px;
-  gap: 10%;
   align-items: center;
   text-align: center;
   font-size: 25px;
   background-color: #70A37F;
-  
+  position: fixed;
+  right: 10px;
+  top: 16%;
+}
+
+.privacy-inline-link{
+  padding: 10px;
+  padding-left: 46px;
+  padding-right: 46px;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  background-color: #70A37F;
+  position: fixed;
+  left: 10px;
+  top: 16%;
 }
 
 .grid_body {
@@ -97,17 +113,28 @@ a {
   text-align: center;
 }
 
+.insta-grid-item{
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  text-align: center;
+}
+
 .grid-item img {
   width: 120px;
   height: 120px;
+}
+
+.insta-grid-item img{
+  width: 130px;
+  height: 140px;
 }
 
 .appTitle {
   text-align: center;
   font-size: 30px;
   color: #ffffff;
-  margin-left: 20%;
-  margin-right: 50%;
+  padding: 5%;
 }
 
 .appInfo1 {
@@ -127,7 +154,38 @@ a {
   color: #2b2b2b;
 }
 
-/*
-.Mui-expanded{
-  
-}*/
+.appTitle-Source{
+  padding-left: 10%;
+  padding-right: 15%;
+  font-size: 30px;
+}
+
+.sources-inline-link{
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  position: fixed;
+  bottom: 2%;
+  left:42%;
+}
+
+.checkbox{
+  position: fixed;
+  right: 16%;
+  align-items: center;
+}
+
+.doneButton{
+  background-color: #70A37F;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.link-grid-item{
+  align-items: center;
+}
+
+.links-grid-container{
+  align-items: center;
+}

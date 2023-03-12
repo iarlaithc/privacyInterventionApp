@@ -6,15 +6,6 @@ import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
 
-
-function ChangeCheckBox (status){
-  const isExpanded = status.isExpanded;
-  if (isExpanded){
-    return (CheckBoxIcon)
-  }
-  return (CheckBoxOutlineBlankIcon)
-}
-
 /*{this.ChangeCheckBox(expanded)}*/
 
 const GenAccordion = ({ title, text }) => {
@@ -40,15 +31,18 @@ return (
           aria-controls="panel1-content"
           expandIcon={<ExpandMoreIcon style={{ color: "#ffffff", fontSize: "50px" }}/>}
           className = "accordionTitle" 
-          sx={{ backgroundColor: "#2b2b2b", color: "#ffffff", fontSize: "25px", borderBottom: "5px solid #444444"}}
+          sx={{ backgroundColor: "#2b2b2b", color: "#ffffff", fontSize: "19px", borderBottom: "5px solid #444444"}}
         >
           <Grid item xs={1}>
             <p>{title}</p>
           </Grid>
 
           <Grid item xs={2}>
-            
-          </Grid >
+
+          </Grid>
+
+        
+          
 
         </AccordionSummary>
 

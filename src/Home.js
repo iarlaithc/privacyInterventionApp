@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 //logos
 import snap_logo from "./media/snapchat.png"
-import instagram_logo from "./media/instagram.png"
+import instagram_logo from "./media/instagram2.png"
 import tiktok_logo from "./media/tiktok.png"
 import twitter_logo from "./media/twitter.png"
 import youtube_logo from "./media/youtube.png"
@@ -25,12 +25,10 @@ function Home(props) {
       <div className="links-bar">
         <div className="links-grid-container">
           <div className="link-grid-item">
-            <Link className="inline-link" to="/info" state={appDataObj.misleadingUI}> 
+            <Link className="misleading-inline-link" to="/info" state={appDataObj.misleadingUI}> 
               Misleading UI
             </Link>
-          </div>
-          <div className="link-grid-item">
-            <Link className="inline-link" to="/info" state={appDataObj.privacy}>
+            <Link className="privacy-inline-link" to="/info" state={appDataObj.privacy} >
               Privacy
             </Link>
           </div>
@@ -83,7 +81,7 @@ function Home(props) {
         </div>
       </div>
       <div className="sources">
-        <Link className="inline-link" to="/sources" state={appDataObj.sources}> 
+        <Link className="sources-inline-link" to="/sources" state={appDataObj.sources}> 
           Sources
         </Link>
       </div>
