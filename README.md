@@ -1,4 +1,6 @@
-## Available Scripts
+This is an app to be used as a digital intervention for our final year project
+
+## Available CRA Scripts
 
 In the project directory, you can run:
 

@@ -35,19 +35,9 @@
     ],
     "misUiAccordion": [
       "Misleading UI features",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "The “streaks” feature on Snapchat is a call to action to attempt to motivate users to engage in the app daily. More recently, with the dwindling popularity of the “streaks” feature, Snapchat has implemented a timer icon that appears when a “streak” is about to end in order to add a further level of urgency to engage with the app.",
+      "The “snap score” feature which is based on how much a user interacts with the app gamifies engaging with the app to encourage use. It also enables social comparison as your score and your friend’s scores are visible which is an attempt to increase app engagement also.",
+      "The signup form for Snapchat on the web makes it seem like you need to add your email address to complete signing up but you don’t."
     ],
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
@@ -127,13 +117,11 @@
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7"
+      "The official TikTok API is available for developers, with tools such as Login Kit which allows users to sign in to new apps quickly using their TikTok account, Embed videos allows easy sharing of TikTok videos on websites, Research API gives researchers access to public data on user profiles, videos, and comments.",
+      "Similar to the other big apps, they do not allow for private user information to be accessed by anyone via their APIs. TikTok has strict guidelines on data use and privacy, and any unauthorized attempted access to user data results in removal of access. Their mobile application is published with a full suite of code obfuscation to make it difficult to decompile. Decompilation is the process of taking app code and converting it back into something that humans can understand.",
+      "An in-app browser is a browser that is integrated within a mobile app, allowing users to browse web content without leaving the app. The in-app browser for TikTok can make use of in-app-tracking.",
+      "When you access a link, including ads, via the in-app-browser, the TikTok browser injects JavaScript code into those external websites, which allows them to monitor all user interactions on the website without consent from the user or website provider. This includes tracking button and link clicks, text selections, and form inputs like passwords and credit card numbers. The full details of the data collected by the in-app browser and how it is transferred or used are not known.",
+      "The in-app-browser for TikTok used to have a large security vulnerability involving these tools, which allowed for a malicious URL to use these JavaScript injection tools to takeover the user’s account. This was fixed, but the injection tool still remains as a feature in the browser to this day."
     ],
     "tncAccordion": [
       "Their Terms and Conditions",
@@ -188,36 +176,16 @@
     ],
     "misUiAccordion": [
       "Misleading UI features",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Great News! BeReal has next to no deliberately misleading UI features."
     ],
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "BeReal has a private API, but its app doesn’t make use of common code obfuscation. In relation to code, obfuscation is the process of intentionally making the code more difficult to understand or reverse-engineer, by altering its structure, variables, and naming conventions, without changing its functionality.  For this reason, the app was reverse-engineered and its inner workings exposed, allowing for access to the “private” API.",
+      "An API endpoint is a specific URL that allows users to access a particular function or service provided by an API via requests. Certain information in the request is unprotected, such as user image URLs being visible, no matter whether they are public or private.",
+      "For each post shared with location enabled, including non-friends in the discover page, the API endpoint that displays the image has metadata containing the latitude and longitude where the post was taken, with precision to one meter.",
+      "The friend suggestion endpoint is the function that generates a list of friends for you to add, based on who you are friends with. If only one person is inputted, then it returns their entire list of friends. This can be abused to build a large net of peoples’ data unknowingly.",
+      "As BeReal is run by a very small team, unlike most other popular social media platforms, but sometimes the most obvious security threats are nuances in software architecture that have significant privacy implications, even though your application may still be “secure” by technical standards."
     ],
     "tncAccordion": [
       "Their Terms and Conditions",
@@ -272,36 +240,17 @@
     ],
     "misUiAccordion": [
       "Misleading UI features",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Instagram utilises words like “activity” and “personalised” as opposed to “tracking” and “targeting” which enables them to suggest accepting personalised ads aka a “better ads experience” to users more palatable. Notice how the option to opt in to personalised ads is a light blue and more appealing as opposed to the blacked out and dull opt out option.",
+      "Instead of allowing the user to decline notifications on the app, Instagram only presents the user with a “not now” option. This enables Instagram to engage in nagging behaviour by continuing to ask the user which notification settings they would like to set if they select “not now”.",
+      "If a user wants to hide “suggested posts” on Instagram, they can only do it for 30 days. Essentially, after the 30 days, Instagram will uncheck your preferences and reactivate suggested posts until (and if) you deactivate them again."
     ],
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Instagram has a developer API (Application Programming Interface), which approved developers have access to. To gain approval, you must create a develop account with Meta, and you must not gather personally identifiable data. Your API access will be shut down if you try.",
+      "A private account prevents your data being accessed with the developer API, including all posts, used hashtags, post locations, and private profile information.",
+      "An in-app browser is a browser that is integrated within a mobile app, allowing users to browse web content without leaving the app. The in-app browser for Instagram can make use of in-app-tracking.",
+      "When you access a link, including ads, via the in-app-browser, the Instagram app injects JavaScript code into those external websites, which allows them to monitor all user interactions on the website without consent from the user or website provider. This includes tracking button and link clicks, text selections, and form inputs like passwords and credit card numbers. The full details of the data collected by the in-app browser and how it is transferred or used are not known."
     ],
     "tncAccordion": [
       "Their Terms and Conditions",
@@ -356,36 +305,15 @@
     ],
     "misUiAccordion": [
       "Misleading UI features",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "You'll be glad to hear that Youtube has next to no deliberately misleading UI features."
     ],
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "As a major Google brand, YouTube takes security seriously, which is always reassuring. The API is available to all users but is mainly focused on the site’s content. The user data accessible through the API is the basic profile information that anyone can see on the app.",
+      "Even though the YouTube API is available to all users, it's designed to protect other users' data. The YouTube API has strict usage policies that prohibit downloading of user data in bulk, as it can be used for malicious purposes such as spamming or phishing.",
+      "The mobile application has the features obfuscation, making it very difficult to decompile and access information that is not available from official sources.",
+      "If you're an authorized API user who meets certain criteria (like having a legitimate reason and following the usage policies), you can access a limited set of user data, such as their profiles, videos, playlists, and comments."
     ],
     "tncAccordion": [
       "Their Terms and Conditions",
@@ -440,53 +368,16 @@
     ],
     "misUiAccordion": [
       "Misleading UI features",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "You'll be glad to hear that Twitter has next to no deliberately misleading UI features."
     ],
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "The Twitter API does not provide Tweet information for Tweets that have been deleted, and does not provide Tweets from users who have made their Tweets private. Only information that the user publishes as public are available.",
+      "The app cannot be decompiled with any ease, making use of the code obfuscation methods seen in many of the platforms.",
+      "There is unofficial APIs that work similarly to the official one, and allow for someone to get the personal information of a profile, like birthday and biography if it exists and is public, using only the account username."
     ],
-    "tncAccordion": [
-      "Their Terms and Conditions",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
-    ]
+    "tncAccordion": ["Their Terms and Conditions", "fact 11"]
   },
   "misleadingUI": {
     "title": "Misleading UI",
