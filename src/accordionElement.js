@@ -27,7 +27,7 @@ const GenAccordion = ({ images, textArray }) => {
           sx={{
             backgroundColor: "#2b2b2b",
             color: "#ffffff",
-            fontSize: "19px",
+            fontSize: "2.5vh",
             borderBottom: "5px solid #444444",
           }}
         >
@@ -41,93 +41,67 @@ const GenAccordion = ({ images, textArray }) => {
           }}
         >
           {textArray[1] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[1]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[1]}</div>
           ) : (
             <></>
           )}
           {textArray[2] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[2]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[2]}</div>
           ) : (
             <></>
           )}
           {textArray[3] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[3]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[3]}</div>
           ) : (
             <></>
           )}
           {textArray[4] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[4]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[4]}</div>
           ) : (
             <></>
           )}
           {textArray[5] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[5]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[5]}</div>
           ) : (
             <></>
           )}
           {textArray[6] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[6]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[6]}</div>
           ) : (
             <></>
           )}
           {textArray[7] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[7]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[7]}</div>
           ) : (
             <></>
           )}
           {textArray[8] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[8]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[8]}</div>
           ) : (
             <></>
           )}
           {textArray[9] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[9]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[9]}</div>
           ) : (
             <></>
           )}
           {textArray[10] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[10]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[10]}</div>
           ) : (
             <></>
           )}
           {textArray[11] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[11]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[11]}</div>
           ) : (
             <></>
           )}
           {textArray[12] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[12]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[12]}</div>
           ) : (
             <></>
           )}
           {textArray[13] !== undefined ? (
-            <div className="accordionItems">
-              <p>{textArray?.[13]}</p>
-            </div>
+            <div className="accordionItems">{textArray?.[13]}</div>
           ) : (
             <></>
           )}

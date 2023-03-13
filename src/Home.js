@@ -18,27 +18,21 @@ function Home(props) {
   return (
     <div className="body">
       <div className="header-nav-bar">
-        <h1>*App name*</h1>
+        <div className="homeAppTitle">Cybersavvy</div>
       </div>
 
       <div className="links-bar">
-        <div className="links-grid-container">
-          <div className="link-grid-item">
-            <Link
-              className="misleading-inline-link"
-              to="/info"
-              state={appDataObj.misleadingUI}
-            >
-              Misleading UI
-            </Link>
-            <Link
-              className="privacy-inline-link"
-              to="/info"
-              state={appDataObj.privacy}
-            >
-              Privacy
-            </Link>
-          </div>
+        <div className="link-grid-item">
+          <Link
+            className="inline-link"
+            to="/info"
+            state={appDataObj.misleadingUI}
+          >
+            Misleading UI
+          </Link>
+          <Link className="inline-link" to="/info" state={appDataObj.privacy}>
+            Privacy
+          </Link>
         </div>
       </div>
 
@@ -46,41 +40,53 @@ function Home(props) {
         <div className="icon-grid-container">
           <div className="grid-item">
             <Link to="/About" state={appDataObj.snapchat}>
-              <img src={snap_logo} alt="snapchat icon" />
+              <img className="logoClass" src={snap_logo} alt="snapchat icon" />
               <p>Snapchat</p>
             </Link>
           </div>
 
           <div className="grid-item">
             <Link to="/About" state={appDataObj.instagram}>
-              <img src={instagram_logo} alt="instagram icon" />
+              <img
+                className="logoClass"
+                src={instagram_logo}
+                alt="instagram icon"
+              />
               <p>Instagram</p>
             </Link>
           </div>
 
           <div className="grid-item">
             <Link to="/About" state={appDataObj.tiktok}>
-              <img src={tiktok_logo} alt="TikTok icon" />
+              <img className="logoClass" src={tiktok_logo} alt="TikTok icon" />
               <p>TikTok</p>
             </Link>
           </div>
 
           <div className="grid-item">
             <Link to="/About" state={appDataObj.twitter}>
-              <img src={twitter_logo} alt="Twitter icon" />
+              <img
+                className="logoClass"
+                src={twitter_logo}
+                alt="Twitter icon"
+              />
               <p>Twitter</p>
             </Link>
           </div>
 
           <div className="grid-item">
             <Link to="/About" state={appDataObj.youtube}>
-              <img src={youtube_logo} alt="Youtube icon" />
+              <img
+                className="logoClass"
+                src={youtube_logo}
+                alt="Youtube icon"
+              />
               <p>Youtube</p>
             </Link>
           </div>
           <div className="grid-item">
             <Link to="/About" state={appDataObj.bereal}>
-              <img src={bereal_logo} alt="Bereal icon" />
+              <img className="logoClass" src={bereal_logo} alt="Bereal icon" />
               <p>Bereal</p>
             </Link>
           </div>

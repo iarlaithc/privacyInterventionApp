@@ -3,19 +3,13 @@
     "title": "Snapchat",
     "infoAccordion": [
       "What Snapchat knows about you",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Snapchat collects account information such as your name, email address, phone number, and username.",
+      "Snapchat collects the content of the snaps and chats you send and receive on its servers including all photos, videos, voice and text messages.",
+      "Snapchat collects information about your location when you use the app, via GPS or Wi-Fi signals.",
+      "Snapchat collects information about the device you use to access the app, such as the model, operating system, and unique device identifiers.",
+      "Snapchat builds a usage profile for every user, based on how you make use of the app and the behaviour patterns you exhibit while using the app.",
+      "Advertisements data is stored on the ads you view and interact with, as well as your engagement with sponsored content and marketing campaigns.",
+      "If allowed, Snapchat collects information about your phone's contacts and stores their details."
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
@@ -42,54 +36,31 @@
     "misUiImages": ["muiTiktok1", "muiTiktok2"],
     "tecSecAccordion": [
       "Technical Information",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Snapchat has a tightly packaged application that has been written with security in mind, making use of many techniques to prevent decompiling of the app. Decompilation is the process of taking app code and converting it back into something that humans can understand.",
+      "Snapchat’s code makes use of control flow obfuscation, which makes the flow of a program harder to follow by adding unnecessary instructions or jumps. It also uses bogus conditional statements that always evaluate to a certain outcome, used to confuse and make the code harder to understand. There are even non-functional instructions added to the code to make it harder to reverse engineer or analyse.",
+      "Alongside this secure design, snapchat also has a developer API, but it cannot be used to collect user personal data, only to use Snapchats’ tools for BitMoji and login integration or to work with their lenses and filters and their Augmented reality toolkit."
     ],
     "tncAccordion": [
-      "Their Terms and Conditions",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Summarised Terms and Conditions",
+      "By using Snapchat, you are giving the company permission to use, modify, and distribute any content that you share on the platform.",
+      "(This means that users' content can be used by Snapchat without further permission or compensation. Users should be aware of this before posting on the platform.)",
+      "You agree to take responsibility for any activity that takes place on your account, whether it was done by you or someone else who has access to your account.",
+      "(Users are responsible for any activity that occurs on their account, whether done by themselves or someone else who has access to their account.)",
+      "Snapchat collects a variety of information about its users, including location data and usage information. By using the service, you are giving the company permission to collect, use, and share this information",
+      "(The statement is relevant to users because it explains Snapchat's data collection practices and their impact on users' privacy. By using Snapchat, users are agreeing to allow the company to collect and use their data, including location data and usage information. This information may be shared with third-party advertisers and other partners in accordance with Snapchat's Privacy Policy. Users should be aware of the types of data Snapchat collects and how it is used, as well as their options for controlling their data and privacy settings.)"
     ]
   },
   "tiktok": {
     "title": "TikTok",
     "infoAccordion": [
       "What TikTok knows about you",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "TikTok collects information about the device you use to access the app, including the type of device, operating system, and IP address.",
+      "TikTok collects information about how you use the app, including the videos you watch, how long you watch each video, the accounts you follow, and your search history.",
+      "TikTok uses cookies and other tracking technologies to gather information about your usage patterns, preferences, and interactions with the app.",
+      "TikTok collects data about the ads you see and interact with, including the types of ads you prefer and your response to them.",
+      "TikTok collects basic information such as your name, age, and profile picture.",
+      "TikTok collects your location data if you allow it to access your device's GPS or Wi-Fi.",
+      "If you allow it, TikTok will access your phone's contacts and store them, to check against their own database for other users."
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
@@ -124,20 +95,13 @@
       "The in-app-browser for TikTok used to have a large security vulnerability involving these tools, which allowed for a malicious URL to use these JavaScript injection tools to takeover the user’s account. This was fixed, but the injection tool still remains as a feature in the browser to this day."
     ],
     "tncAccordion": [
-      "Their Terms and Conditions",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "SummarisedTheir Terms and Conditions",
+      "You are agreeing to allow TikTok to collect information from you, including your name, email address, phone number, location data, and other information that you may provide to the app. TikTok may also collect information about your devices, including device type, operating system, and unique device identifiers.",
+      "You are agreeing to allow TikTok to use the information it collects to provide and improve its services and personalize your content and advertising.",
+      "By agreeing to TikTok's terms, users allow the collection and use of personal information, including location, device info, and browsing history, to create a profile of interests and behavior.",
+      "TikTok allows you to set your account to private, which means that only approved followers can see your content. TikTok also allows you to control the use of your personal information for advertising purposes.",
+      "TikTok may also use information about your activity on the platform, to infer your interests and preferences and show you more relevant content and ads.",
+      "TikTok allows you to link your account with other third-party services, which may result in additional personal information being collected and shared."
     ]
   },
   "bereal": {
@@ -188,7 +152,7 @@
       "As BeReal is run by a very small team, unlike most other popular social media platforms, but sometimes the most obvious security threats are nuances in software architecture that have significant privacy implications, even though your application may still be “secure” by technical standards."
     ],
     "tncAccordion": [
-      "Their Terms and Conditions",
+      "Summarised Terms and Conditions",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -208,19 +172,13 @@
     "title": "Instagram",
     "infoAccordion": [
       "What Instagram knows about you",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Instagram tracks and stores your activity on the platform, the posts you like, comments you make, accounts you follow, and hashtags you use.",
+      "Instagram collects your device information like the type of device you're using, operating system, and browser type.",
+      "Instagram collects location information based on your device's GPS, IP address, and Wi-Fi access points if you have location enabled for the application, and not just when posting with a location.",
+      "If you make purchases on Instagram, the platform collects payment information like credit card numbers, billing addresses, and transaction histories.",
+      "Instagram stores the content of all direct messages and group messages with other users, including images and voice notes.",
+      "Instagram tracks and stores all data on the advertisements and sponsored content that you interact with on the platform.",
+      "Search queries, and the pathways you took from those searches that you make on the platform are collected and stored."
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
@@ -253,39 +211,27 @@
       "When you access a link, including ads, via the in-app-browser, the Instagram app injects JavaScript code into those external websites, which allows them to monitor all user interactions on the website without consent from the user or website provider. This includes tracking button and link clicks, text selections, and form inputs like passwords and credit card numbers. The full details of the data collected by the in-app browser and how it is transferred or used are not known."
     ],
     "tncAccordion": [
-      "Their Terms and Conditions",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Summarised Terms and Conditions",
+      "Content Ownership: When you post content on Instagram, you still own it, but you give Instagram a license to use and share it. This means that Instagram can display your content and use it in advertising. This license is non-exclusive, so you can still use your content in other ways, but you should be aware of the permissions you're giving Instagram when you post on their platform.",
+      "Privacy: Instagram collects and uses your personal data, including information about your device, location, and activity on the platform. They may also share your data with third-party partners.",
+      "Content License: When you post content on Instagram, you grant the platform a non-exclusive, royalty-free license to use your content. This license allows Instagram to display, reproduce, modify, distribute, and otherwise use your content in connection with their service. While you still own your content, this license affects your control over how it is used. Consider the implications of this license before posting content on the platform.",
+      "Third-Party Links and Content: Instagram is not responsible for any third-party content or links on their platform, and users access them at their own risk. It's a warning to users to be cautious when accessing such content or links, and to take responsibility for their own online behavior."
     ]
   },
   "youtube": {
     "title": "Youtube",
     "infoAccordion": [
       "What Youtube knows about you",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "YouTube collects personal information such as name, email address, phone number, and date of birth. This information is required to create a user account. This information is not verified.",
+      "Users’ video viewing history is collected, including the duration of the video, the time and date the video was watched, and the user's interaction with the video - like how if sections were skipped or replayed.",
+      "YouTube tracks the user's search history on the platform, including the search terms used, the time and date of the search, and the results that were clicked.",
+      "YouTube collects user location data, including the user's IP address, information on nearby Wi-Fi networks, and GPS data, if enabled.",
+      "YouTube collects user's device information, including the device type, operating system, and browser type.",
+      "YouTube collects data on advertisements, including the number of ads viewed, the time and date of the ad view, and the user's interaction with the ad.",
+      "User comments and feedback submitted on videos, channels, and other content on the platform are collected.",
+      "The channels that a user subscribes to, the content that a user uploads or creates, and the playlists that a user creates are all collected and stored.",
+      "If a user links their YouTube account to their social media accounts, YouTube collects information from those accounts, such as the user's friends list and the content that the user shares from YouTube.",
+      "YouTube collects user data from third-party sources, such as advertisers or data brokers."
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
@@ -312,11 +258,11 @@
       "Technical Information",
       "As a major Google brand, YouTube takes security seriously, which is always reassuring. The API is available to all users but is mainly focused on the site’s content. The user data accessible through the API is the basic profile information that anyone can see on the app.",
       "Even though the YouTube API is available to all users, it's designed to protect other users' data. The YouTube API has strict usage policies that prohibit downloading of user data in bulk, as it can be used for malicious purposes such as spamming or phishing.",
-      "The mobile application has the features obfuscation, making it very difficult to decompile and access information that is not available from official sources.",
+      "The mobile application features obfuscation in the app design, making it very difficult to decompile and access information that is not available from official sources.",
       "If you're an authorized API user who meets certain criteria (like having a legitimate reason and following the usage policies), you can access a limited set of user data, such as their profiles, videos, playlists, and comments."
     ],
     "tncAccordion": [
-      "Their Terms and Conditions",
+      "Summarised Terms and Conditions",
       "fact 1",
       "fact 2",
       "fact 3",
@@ -336,19 +282,16 @@
     "title": "Twitter",
     "infoAccordion": [
       "What Twitter knows about you",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Twitter collects basic personal information such as name, email address, phone number, and location.",
+      "Twitter collects information about the devices used to access its services, such as IP addresses, browser types, and operating systems.",
+      "How users interact with its platform is recorded, including the tweets they post, the accounts they follow, and the searches they conduct.",
+      "Twitter uses cookies and other tracking technologies to collect information about user activity on its platform and to serve targeted advertising.",
+      "Precise location of a user's device is collected, for location-based services and targeted advertising.",
+      "Twitter stores the content of direct messages sent between users.",
+      "Twitter collects data on user interactions with advertisements, such as clicks or views.",
+      "Payment information: Twitter may collect payment information if a user makes a purchase through its platform.",
+      "Twitter collects data from third-party sources, such as advertisers or data brokers, to better target ads or personalize user experiences.",
+      "Twitter collects users’ biometric data such as voiceprints, fingerprints, or facial recognition data for account verification purposes."
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
@@ -377,7 +320,13 @@
       "The app cannot be decompiled with any ease, making use of the code obfuscation methods seen in many of the platforms.",
       "There is unofficial APIs that work similarly to the official one, and allow for someone to get the personal information of a profile, like birthday and biography if it exists and is public, using only the account username."
     ],
-    "tncAccordion": ["Their Terms and Conditions", "fact 11"]
+    "tncAccordion": [
+      "Summarised Terms and Conditions",
+      "Data Retention: Twitter keeps your profile information and content for the duration of your account. and keep other personally identifiable data they collect when you use twitter and services for a maximum of 18 months",
+      "Data Collection: Twitter collects data about your use of the platform, including your location, device information, and browsing history, and uses this information to build your profile for targeted advertising.",
+      "Twitter may contain links to third-party websites, and you agree that Twitter is not responsible for the content or actions of these sites.",
+      "Twitter cannot guarantee that all user data and tweets are deleted if a user deletes their account, as tweets often make it out of Twitters’ control and are saved by others."
+    ]
   },
   "misleadingUI": {
     "title": "Misleading UI",
@@ -406,7 +355,22 @@
   },
   "privacy": {
     "title": "Privacy",
-    "pageContent": ["one", "two", "three", "four"]
+    "pageContent": [
+      "Why Privacy Matters",
+      "",
+      "Protecting Personal Information",
+      "Personal information, such as name, date of birth, address, phone number, email and credit card details can be used by cybercriminals to commit identity theft or other types of fraud.",
+      "Protecting Online Reputation",
+      "Anything you post can potentially affect future opportunities. Employers, colleges, and other organizations often search social media profiles before making decisions, so it's important for young people to be mindful of what they post online.",
+      "Tracking",
+      "Many websites and services track our online activities, such as the websites we visit, the products we buy, and the searches we perform. This tracking can be used to create detailed profiles of our interests and behavior, which can be sold to advertisers, used for targeted marketing, or even used to manipulate our thoughts and actions.",
+      "Maintaining Confidentiality",
+      "Online privacy is crucial for maintaining confidentiality in sensitive situations. For example, individuals may need to share sensitive information with healthcare providers, financial advisors, or legal professionals, and their privacy must be protected.",
+      "Preventing Targeted Advertising",
+      "Online privacy is important because it can help prevent targeted advertising. Targeted ads can be invasive and may feel like an invasion of privacy, especially when they are based on personal information that has been collected without consent.",
+      "Government surveillance",
+      "In some countries, governments engage in surveillance of their citizens' online activities. This can be used to monitor dissidents, suppress free speech, and limit freedom of expression e.g China, Russia, Iran, North Korea & USA."
+    ]
   },
   "sources": {
     "title": "Our sources",

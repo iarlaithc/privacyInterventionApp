@@ -13,11 +13,12 @@ function InfoPage(props) {
     <div className="body">
       <div className="header-nav-bar">
         <div className="back-btn">
-          <Link to="../">Back</Link>
+          <Link className="backButtonClass" to="../">
+            Back
+          </Link>
         </div>
-        <div className="appTitle">
-          <p>{data.title}</p>
-        </div>
+        <div className="appTitle">{data.title}</div>
+        <div className="back-btn"></div>
       </div>
       <div className="infoBody">
         {textArray.map((text, index) =>
