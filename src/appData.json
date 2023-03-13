@@ -33,7 +33,7 @@
       "The “snap score” feature which is based on how much a user interacts with the app gamifies engaging with the app to encourage use. It also enables social comparison as your score and your friend’s scores are visible which is an attempt to increase app engagement also.",
       "The signup form for Snapchat on the web makes it seem like you need to add your email address to complete signing up but you don’t."
     ],
-    "misUiImages": ["muiTiktok1", "muiTiktok2"],
+    "misUiImages": ["snapchat2"],
     "tecSecAccordion": [
       "Technical Information",
       "Snapchat has a tightly packaged application that has been written with security in mind, making use of many techniques to prevent decompiling of the app. Decompilation is the process of taking app code and converting it back into something that humans can understand.",
@@ -85,7 +85,7 @@
       "TikTok stifles external links and lengthy descriptions on videos in order to keep you in the app for as long as possible. Anything that could possibly take you out of the app is never placed front and centre on your FYP feed",
       "As well as merging multiple calls to action under one “yes” or “no” option, TikTok designs their options asymmetricaly to add an extra push to users to accept their requests for “experience improvement”. Notice the “OK” both capitalised and in bold compared to the “Don’t allow” which is not capitalised and not in bold. Using “OK” as opposed to “Allow” deceives users into forgetting that TikTok are asking for permissions which the user has a choice in allowing."
     ],
-    "misUiImages": ["muiTiktok1", "muiTiktok2"],
+    "misUiImages": ["tiktok0", "tiktok3"],
     "tecSecAccordion": [
       "Technical Information",
       "The official TikTok API is available for developers, with tools such as Login Kit which allows users to sign in to new apps quickly using their TikTok account, Embed videos allows easy sharing of TikTok videos on websites, Research API gives researchers access to public data on user profiles, videos, and comments.",
@@ -95,7 +95,7 @@
       "The in-app-browser for TikTok used to have a large security vulnerability involving these tools, which allowed for a malicious URL to use these JavaScript injection tools to takeover the user’s account. This was fixed, but the injection tool still remains as a feature in the browser to this day."
     ],
     "tncAccordion": [
-      "SummarisedTheir Terms and Conditions",
+      "Summarised Terms and Conditions",
       "You are agreeing to allow TikTok to collect information from you, including your name, email address, phone number, location data, and other information that you may provide to the app. TikTok may also collect information about your devices, including device type, operating system, and unique device identifiers.",
       "You are agreeing to allow TikTok to use the information it collects to provide and improve its services and personalize your content and advertising.",
       "By agreeing to TikTok's terms, users allow the collection and use of personal information, including location, device info, and browsing history, to create a profile of interests and behavior.",
@@ -153,19 +153,11 @@
     ],
     "tncAccordion": [
       "Summarised Terms and Conditions",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "In order to use BeReal you must create an account with a required phone number, which is verified via SMS confirmation. A name, age, username, and password are also required for account creation",
+      "Users can create and share photos and information on their profile, view public content, content of friends, interact through commenting, messaging, and location sharing.",
+      "Users can delete one piece of content per day or request more to be deleted.",
+      "Users cannot create a new account after account deletion, the account is linked with a phone number that can only be used once.",
+      "BeReal owns the application and its content except for user-generated content."
     ]
   },
   "instagram": {
@@ -202,7 +194,7 @@
       "Instead of allowing the user to decline notifications on the app, Instagram only presents the user with a “not now” option. This enables Instagram to engage in nagging behaviour by continuing to ask the user which notification settings they would like to set if they select “not now”.",
       "If a user wants to hide “suggested posts” on Instagram, they can only do it for 30 days. Essentially, after the 30 days, Instagram will uncheck your preferences and reactivate suggested posts until (and if) you deactivate them again."
     ],
-    "misUiImages": ["muiTiktok1", "muiTiktok2"],
+    "misUiImages": ["instagram0", "instagram1", "instagram2"],
     "tecSecAccordion": [
       "Technical Information",
       "Instagram has a developer API (Application Programming Interface), which approved developers have access to. To gain approval, you must create a develop account with Meta, and you must not gather personally identifiable data. Your API access will be shut down if you try.",
