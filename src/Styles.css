@@ -6,11 +6,17 @@
 a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 4vh;
+  font-size: 2vh;
+  flex-wrap: wrap;
 }
 
 p {
   font-size: 2.5vh;
+}
+
+h3 {
+  font-size: 3vh;
+  color: #70a37f;
 }
 
 .body {
@@ -171,6 +177,11 @@ p {
 
 .sources-inline-link {
   font-size: 2vh;
+}
+
+.sourcesBody {
+  display: flexbox;
+  width: 100%;
 }
 
 .checkbox {

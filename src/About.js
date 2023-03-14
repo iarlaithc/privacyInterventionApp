@@ -23,7 +23,10 @@ function About(props) {
       </div>
       <div className="accordionBox">
         <GenAccordion textArray={data.infoAccordion}></GenAccordion>
-        <GenAccordion textArray={data.tutorialAccordion}></GenAccordion>
+        <GenAccordion
+          textArray={data.tutorialAccordion}
+          images={data.tutorialImages}
+        ></GenAccordion>
         <GenAccordion
           textArray={data.misUiAccordion}
           images={data.misUiImages}

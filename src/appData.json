@@ -13,20 +13,14 @@
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "To access the Snapchat settings tap on your profile or bitmoji in the top left of the screen, and tap the settings cog on top right. That opens the general settings. You are able to add two factor authentication if you want to secure your account.",
+      "Under the “Additional services” you can find the permissions if you want to disable Snapchats access to things like location, microphone etc.",
+      "Under “Ad Preferences” you can change or turn off targeted advertising",
+      "In “Lifestyle & Interests” you can see and change the inferred information they have created around your data.",
+      "Lower in the “Privacy Controls” section, you can find the settings for Snapmaps. Here you can turn the feature on or off, change who can see you, or disable it temporarily.",
+      "And finally below that you can change who can see your stories"
     ],
+    "tutorialImages": ["snaptut0", "snaptut2"],
     "misUiAccordion": [
       "Misleading UI features",
       "The “streaks” feature on Snapchat is a call to action to attempt to motivate users to engage in the app daily. More recently, with the dwindling popularity of the “streaks” feature, Snapchat has implemented a timer icon that appears when a “streak” is about to end in order to add a further level of urgency to engage with the app.",
@@ -64,20 +58,12 @@
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "To get into the Tiktok settings, tap into your profile, and then click the menu in the top right.",
+      "In the privacy section, you can set your account to private, and change how your account might get shown to other users. Down below you can also change who can do different things with the videos you might post such as stitch/duet or save or download your videos.",
+      "Going back to the previous menu you can access “Security” settings, here you can enable two factor authentication.",
+      "Lower in the main settings, in the “ads” section you can change your settings for personalized ads. Here you can stop the app from showing you ads from particular companies you've already seen."
     ],
+    "tutorialImages": ["tiktoktut0", "tiktoktut3"],
     "misUiAccordion": [
       "Misleading UI features",
       "The Sign Up Page. Upon making your TikTok account you are prompted to confirm whether you are over 18 with “yes” or “no” buttons. However, Tiktok has merged this question with asking for your consent to allow personalised ad content.",
@@ -108,36 +94,19 @@
     "title": "BeReal",
     "infoAccordion": [
       "What BeReal knows about you",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "BeReal stores your personal account information, such as name, date of birth, and phone number.",
+      "BeReal collects information about the device you use to access the app, including the type of device, operating system, and IP address.",
+      "BeReal collects information about how you use the app, including the posts you make, posts you view, posts you interact with, via comments or RealMoji.",
+      "BeReal collects your location data if you allow it to access your device's GPS or Wi-Fi.",
+      "If you allow it, BeReal will access your phone's contacts and store them, to check against their own database for other users. This data is stored in their servers for the friend suggestion feature."
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Bereal is a new app in the market and due to the simplicity of its design and features there are limited settings to change. To access settings, select your profile in the top right corner, and then the three dots in the top right corner. The privacy settings allow you to block or hide users.",
+      "Bereal will attach your location to your daily post by default. The only way to stop this is by tapping the location button before sending/posting your Bereal, because there is no way of retroactively removing your location.",
+      "The last thing you can do, is when you select your Bereal you can choose who can see your Bereal, either just your friends or you can post it to the global “discover” page so that anyone can see your post."
     ],
+    "tutorialImages": ["berealtut0"],
     "misUiAccordion": [
       "Misleading UI features",
       "Great News! BeReal has next to no deliberately misleading UI features."
@@ -174,20 +143,13 @@
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "To access the settings in Instagram, tap on your profile in the bottom right, and then the three lines in the top right, and finally the settings cog.",
+      "Firstly, the security tab will allow you to turn on two factor authentication.",
+      "Within the privacy tab, the most well known privacy settings in Instagram is at the top of the page allowing you to change your account to private so you can filter who follows you. There are also tabs to change who can do things like comment, mention, and do various things with your stories such as sharing them through messages.",
+      "Further down, the “Activity status” tab allows you to turn off the activity status which shows other people whether you currently are or when you were last on Instagram.",
+      "Finally, at the bottom of the settings page. The “Cookies” tab has some important options, such as whether they can share your instagram data with other companies, or if they can use your data from other companies in Instagram."
     ],
+    "tutorialImages": ["instatut0", "instatut2"],
     "misUiAccordion": [
       "Misleading UI features",
       "Instagram utilises words like “activity” and “personalised” as opposed to “tracking” and “targeting” which enables them to suggest accepting personalised ads aka a “better ads experience” to users more palatable. Notice how the option to opt in to personalised ads is a light blue and more appealing as opposed to the blacked out and dull opt out option.",
@@ -227,20 +189,11 @@
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "The Youtube app links a lot of their settings with the general Google settings, which makes it difficult to change particular settings. To get into the settings tap on your profile in the top right of the home page, then tap on the Settings cog.",
+      "First the tab named “Your data in Youtube”. Here you can find the google-wide settings like location history, web & app activity and personalized ads. These can't be turned off for youtube and not for other Google products. So turning off location data here will impact apps such as Google maps. This also means that you can’t separate your Google searches from your Youtube account. The next place we can look is in the settings tab.",
+      "The ad settings button will also take you out of the app and into the Google settings.  You can also disable personalized ads here."
     ],
+    "tutorialImages": ["youtubetut0", "youtubetut1"],
     "misUiAccordion": [
       "Misleading UI features",
       "You'll be glad to hear that Youtube has next to no deliberately misleading UI features."
@@ -278,20 +231,15 @@
     ],
     "tutorialAccordion": [
       "Privacy Protection Tutorial",
-      "fact 1",
-      "fact 2",
-      "fact 3",
-      "fact 4",
-      "fact 5",
-      "fact 6",
-      "fact 7",
-      "fact 8",
-      "fact 9",
-      "fact 10",
-      "fact 11",
-      "fact 12",
-      "fact 13"
+      "Twitter doesn't necessarily make it easy to see or change your privacy settings.",
+      "Tap your profile in the top left, tap the “Settings and Support” drop down and tap “Settings and privacy”",
+      "You can enable 2 factor authentication in the “Security and account access” section.",
+      "Once you enter the “Privacy and safety” section",
+      "You can control who can see your profile in the “Discoverability and contacts” section",
+      "Scroll down to “ad preferences” and you can turn off personalized ads",
+      "Below that you can see and edit Twitter's ability to use your data to infer and identity for you as well as sharing your twitter data with other companies. Here you can also disable content based on your location data."
     ],
+    "tutorialImages": ["twittertut0", "twittertut2"],
     "misUiAccordion": [
       "Misleading UI features",
       "You'll be glad to hear that Twitter has next to no deliberately misleading UI features."
@@ -314,6 +262,8 @@
   "misleadingUI": {
     "title": "Misleading UI",
     "pageContent": [
+      "Common Features",
+      "",
       "Infinite Scrolling",
       "Social media apps often use infinite scrolling to keep users engaged, but this can lead to users spending more time on the app than they intended and feeling overwhelmed.",
       "Misleading Notification Counts",
