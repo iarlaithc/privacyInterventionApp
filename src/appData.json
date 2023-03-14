@@ -242,9 +242,9 @@
     "tutorialImages": ["twittertut0", "twittertut2"],
     "misUiAccordion": [
       "Misleading UI features",
-      "You'll be glad to hear that Twitter has next to no deliberately misleading UI features."
+      "While using the Twitter app, user’s can randomly be asked to opt in for personalised ads without a clear button to decline or click off the prompt, until, you drag the prompt up, uncovering a small “Keep less relevant ads” text button. Ironically, the personalised ads prompt is titled “You’re in control”."
     ],
-    "misUiImages": ["muiTiktok1", "muiTiktok2"],
+    "misUiImages": ["muiTwitter0"],
     "tecSecAccordion": [
       "Technical Information",
       "The Twitter API does not provide Tweet information for Tweets that have been deleted, and does not provide Tweets from users who have made their Tweets private. Only information that the user publishes as public are available.",

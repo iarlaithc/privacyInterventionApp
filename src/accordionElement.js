@@ -12,7 +12,8 @@ import insta1 from "./media/muiImages/instagram_bp2.jpg"
 import insta2 from "./media/muiImages/instagram_bp3.jpg"
 //snapchat
 import snap2 from "./media/muiImages/snapchat_bp3.jpg"
-//bereal
+//twitter
+import twit0 from "./media/muiImages/twitter_bp1.png"
 
 //tutorial images
 //youtube
@@ -84,6 +85,11 @@ const GenAccordion = ({ images, textArray }) => {
           )}
           {images?.[0] === "instagram0" ? (
             <img className="inTextImg" src={insta0} alt="test" />
+          ) : (
+            <></>
+          )}
+          {images?.[0] === "muiTwitter0" ? (
+            <img className="inTextImg" src={twit0} alt="test" />
           ) : (
             <></>
           )}
