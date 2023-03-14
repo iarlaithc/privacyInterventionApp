@@ -137,11 +137,6 @@ const GenAccordion = ({ images, textArray }) => {
           ) : (
             <></>
           )}
-          {images?.[1] === "tiktok3" ? (
-            <img className="inTextImg" src={tiktok3} alt="test" />
-          ) : (
-            <></>
-          )}
           {images?.[2] === "instagram2" ? (
             <img className="inTextImg" src={insta2} alt="test" />
           ) : (
@@ -164,6 +159,11 @@ const GenAccordion = ({ images, textArray }) => {
           )}
           {textArray[4] !== undefined ? (
             <div className="accordionItems">{textArray?.[4]}</div>
+          ) : (
+            <></>
+          )}
+          {images?.[1] === "tiktok3" ? (
+            <img className="inTextImg" src={tiktok3} alt="test" />
           ) : (
             <></>
           )}
