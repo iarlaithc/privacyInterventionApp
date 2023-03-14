@@ -3,8 +3,13 @@ import Home from "./Home"
 import About from "./About"
 import InfoPage from "./infoPage"
 import SourcesPage from "./sources"
+import { useEffect } from "react"
 
 function App() {
+  useEffect(() => {
+    document.title = "Digital Privacy Intervention"
+  }, [])
+
   return (
     <BrowserRouter>
       <Routes>
